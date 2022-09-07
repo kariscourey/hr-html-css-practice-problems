@@ -25,7 +25,7 @@ def show_problem(request, problem_number):
 
     # Context for Problem 4
     if problem_number in show_information_problems:
-        context["show_information"] = False
+        context["show_information"] = True
 
     # Context for Problems 5 through 11 and 19 through 22
     if problem_number in names_problems:

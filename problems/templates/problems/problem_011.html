@@ -18,13 +18,17 @@
       -->
       <ul>
         <!-- for each name in names -->
+        {%for name in names%}
 
           <!-- if "i" in name -->
+          {%if "i" in name%}
 
             <li>{{ name }}</li>
           <!-- end if -->
+          {%endif%}
 
         <!-- end for -->
+        {%endfor%}
 
       </ul>
     </main>

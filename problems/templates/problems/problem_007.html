@@ -13,15 +13,20 @@
   <body>
     <main>
       <!-- Add the open ul tag, here -->
+      <ul>
 
         <!-- for each name in names -->
+        {% for name in names %}
 
           <!-- li tag with {{name}} as content -->
+          <li>{{ name }}</li>
 
         <!-- End for -->
+        {% endfor %}
 
       <!-- Add the close ul tag, here -->
 
+      </ul>
     </main>
   </body>
 </html>
